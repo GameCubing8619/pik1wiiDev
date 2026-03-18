@@ -265,7 +265,7 @@ cflags_jaudio = [
     "-fp hardware",
     "-Cpp_exceptions off",
     # "-W all",
-    "-O4,s",
+    "-O4,p",
     "-inline off",
     '-pragma "cats off"',
     '-pragma "warn_notinlined off"',
@@ -366,7 +366,7 @@ config.libs = [
     {
         "lib": "jaudio",
         "cflags": cflags_jaudio,
-        "mw_version": "GC/3.0a3p1",
+        "mw_version": "GC/3.0a5.2",
         "progress_category": "jaudio",
         "objects": [
             Object(NonMatching, "jaudio/dummyprobe.c"),
