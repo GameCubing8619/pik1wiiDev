@@ -366,7 +366,7 @@ config.libs = [
     {
         "lib": "jaudio",
         "cflags": cflags_jaudio,
-        "mw_version": "GC/3.0a3p1",
+        "mw_version": "GC/3.0a5.2",
         "progress_category": "jaudio",
         "objects": [
             Object(NonMatching, "jaudio/dummyprobe.c"),
